@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.Mains{
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+}
+.topbaR{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(237, 237, 237);
+    position: relative;
+    width: 500px;
+    height: 85px;
+    bottom: 10px;
+}
+.topbaR>h3{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topbaR>.H{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+}
+.topbaR>.H:hover{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+    color: white;
+}
+.topbaR>.M{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+.topbaR>.T{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+.topbaR>.T:hover{
+    position: absolute;
+    color: white;
+    right: 110px;
+    cursor: pointer;
+}
+.topbaR>.Profiles{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1130px;
+    padding: 18px 3px 18px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+    font-family: "Outfit", serif;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.topbaR>.Profiles>img{
+    border-radius: 40px;
+}
+.Details{
+    margin: 40px 50px;
+    color: white;
+    font-family: "Outfit", serif;
+    
+}
+.Details>.action>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.action>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.action>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.adventure{
+    margin-top: 30px;
+}
+.Details>.adventure>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.adventure>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.adventure>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.comedy{
+    margin-top: 30px;
+}
+.Details>.comedy>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.comedy>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.comedy>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.crime{
+    margin-top: 30px;
+}
+.Details>.crime>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.crime>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.crime>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.drama{
+    margin-top: 30px;
+}
+.Details>.drama>h1{
+    padding-bottom: 20px;
+    margin-bottom: 230px;
+    border-bottom: 3px solid white;
+}
+.Details>.fantasy{
+    margin-top: 30px;
+}
+.Details>.fantasy>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.fantasy>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.fantasy>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.horror{
+    margin-top: 30px;
+}
+.Details>.horror>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.horror>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.horror>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}
+.Details>.scifi{
+    margin-top: 30px;
+}
+.Details>.scifi>h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    border-bottom: 3px solid white;
+}
+.Details>.scifi>img{
+    margin-right: 30px;
+    border-radius: 10px;
+}
+.Details>.scifi>img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: 2s;
+}

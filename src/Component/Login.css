@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.MaiNs{
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+    font-family: "Outfit", serif;
+}
+.Topic{
+    color: white;
+    margin: 60px 620px;
+}
+.username{
+    margin-left: 550px;
+    margin-bottom: 40px;
+    color: white;
+}
+.username>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 50px 5px 30px;
+    color: white;
+}
+.password{
+    margin-left: 550px;
+}
+.password>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 50px 5px 30px;
+    color: white;
+}
+.signin{
+    color: white;
+    margin: 70px 580px 0px 550px;
+    padding: 4px 0px;
+    border-radius: 30px;
+    background-color: rgba(179, 1, 1, 0.919);
+    cursor: pointer;
+}
+.signin>h3{
+    margin-left: 95px;
+}
+.Register{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 20px 10px 40px 70px;
+    margin: 40px 520px 50px 500px;
+    border-bottom: 3px solid white;
+}
+.Register>.Re{
+    color: rgb(255, 6, 6);
+    cursor: pointer;
+}
+.Register>.Re:hover{
+    color: rgb(255, 141, 141);
+    cursor: pointer;
+}
+.SocialLog{
+    margin: 20px 30px 48px 575px;
+    color: white;
+}

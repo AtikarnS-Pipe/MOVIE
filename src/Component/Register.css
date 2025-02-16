@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.MAINS{
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+    font-family: "Outfit", serif;
+}
+.TOPIC{
+    color: white;
+    margin: 60px 590px;
+}
+.Username{
+    margin-left: 480px;
+    margin-bottom: 40px;
+    color: white;
+}
+.Username>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 210px 5px 0px;
+    color: white;
+}
+.Password{
+    margin-left: 480px;
+    margin-bottom: 40px;
+    color: white;
+}
+.Password>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 210px 5px 0px;
+    color: white;
+}
+.CPassword{
+    margin-left: 480px;
+    margin-bottom: 40px;
+    color: white;
+}
+.CPassword>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 210px 5px 0px;
+    color: white;
+}
+.namesur{
+    display: flex;
+    justify-content: flex-start;
+}
+.Name{
+    margin-left: 480px;
+    margin-bottom: 40px;
+    color: white;
+}
+.Name>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 20px 5px 0px;
+    color: white;
+}
+.Surname{
+    margin-left: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+.Surname>input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px 20px 5px 0px;
+    color: white;
+}
+.signup{
+    color: white;
+    margin: 10px 580px 20px 520px;
+    padding: 4px 0px;
+    border-radius: 30px;
+    background-color: rgba(179, 1, 1, 0.919);
+    cursor: pointer;
+}
+.signup:hover{
+    color: white;
+    margin: 10px 580px 20px 520px;
+    padding: 4px 0px;
+    border-radius: 30px;
+    background-color: rgba(254, 57, 57, 0.919);
+    cursor: pointer;
+}
+.signup>h3{
+    margin-left: 105px;
+}
+.LOGIN{
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 10px 40px 70px;
+    margin: 10px 520px 50px 480px;
+    color: white;
+}
+.LOGIN>.Lo{
+    color: rgb(255, 6, 6);
+    cursor: pointer;
+}
+.LOGIN>.Lo:hover{
+    color: rgb(255, 141, 141);
+    cursor: pointer;
+}

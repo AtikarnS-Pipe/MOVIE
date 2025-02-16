@@ -1,0 +1,589 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+}
+.topbarr{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(237, 237, 237);
+    position: relative;
+    width: 500px;
+    height: 85px;
+    bottom: 10px;
+}
+.topbarr>h3{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topbarr>.H{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+}
+.topbarr>.H:hover{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+    color: white;
+}
+.topbarr>.M{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+.topbarr>.M:hover{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+    color: white;
+}
+.topbarr>.T{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    position: absolute;
+    color: white;
+    right: 110px;
+    cursor: pointer;
+}
+.topbarr>.Profile{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1130px;
+    padding: 18px 3px 18px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+    font-family: "Outfit", serif;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.topbarr>.Profile>img{
+    border-radius: 40px;
+}
+.Lists>.ONE{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.ONE>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.ONE>p{
+    margin-left: 70px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.ONE>p>h3.W{
+    margin: 30px 600px 0px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.ONE>p>h3.W:hover{
+    margin: 30px 600px 0px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.ONE>p>h3.A{
+    margin: 30px 580px 0px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.ONE>p>h3.A:hover{
+    margin: 30px 580px 0px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.TWO{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 20px 40px 30px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.TWO>h1{
+    margin-right: 30px;
+    font-size: 50px;
+}
+.Lists>.TWO>p{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.TWO>p>h3.W{
+    margin: 30px 600px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.TWO>p>h3.W:hover{
+    margin: 30px 600px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.TWO>p>h3.A  {
+    margin: 30px 580px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.TWO>p>h3.A:hover{
+    margin: 30px 580px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.THREE{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.THREE>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.THREE>p{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.THREE>p>h3.W{
+    margin: 30px 605px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.THREE>p>h3.W:hover{
+    margin: 30px 605px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.THREE>p>h3.A  {
+    margin: 30px 585px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.THREE>p>h3.A:hover{
+    margin: 30px 585px 20px 70px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.FOUR{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.FOUR>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.FOUR>p{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.FOUR>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.FOUR>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.FOUR>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.FOUR>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.FIVE{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.FIVE>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.FIVE>p{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.FIVE>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.FIVE>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.FIVE>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.FIVE>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.SIX{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.SIX>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.SIX>p{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.SIX>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.SIX>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.SIX>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.SIX>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.SEVEN{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.SEVEN>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.SEVEN>p{
+    margin-left: 70px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.SEVEN>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.SEVEN>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.SEVEN>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.SEVEN>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.EIGHT{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.EIGHT>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.EIGHT>p{
+    margin-left: 70px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.EIGHT>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.EIGHT>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.EIGHT>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.EIGHT>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.NINE{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.NINE>h1{
+    margin-right: 40px;
+    font-size: 50px;
+}
+.Lists>.NINE>p{
+    margin-left: 70px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.NINE>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.NINE>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.NINE>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.NINE>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}
+.Lists>.TEN{
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 3px solid white;
+    margin: 40px 40px;
+    padding: 40px 30px;
+    color: white;
+    font-family: "Outfit", serif;
+}
+.Lists>.TEN>h1{
+    margin-right: 20px;
+    font-size: 50px;
+}
+.Lists>.TEN>p{
+    margin-left: 70px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    position: relative;
+    width: 1000px;
+    height: 155px;
+}
+.Lists>.TEN>p>h3.W{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    cursor: pointer;
+}
+.Lists>.TEN>p>h3.W:hover{
+    margin: 30px 605px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+}
+.Lists>.TEN>p>h3.A  {
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(102, 102, 102);
+    cursor: pointer;
+}
+.Lists>.TEN>p>h3.A:hover{
+    margin: 30px 585px 20px 60px;
+    padding: 15px 30px 15px 25px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(44, 44, 44);
+    cursor: pointer;
+}

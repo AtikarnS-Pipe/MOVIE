@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+.MainS{
+    font-family: "Outfit", serif;
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+    color: white;
+}
+.topbars{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(237, 237, 237);
+    position: relative;
+    width: 500px;
+    height: 85px;
+    bottom: 10px;
+}
+.topbars>h3{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.topbars>.H{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+}
+.topbars>.H:hover{
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+    color: white;
+}
+.topbars>.M{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+.topbars>.M:hover{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+    color: white;
+}
+.topbars>.T{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+.topbars>.T:hover{
+    position: absolute;
+    color: white;
+    right: 110px;
+    cursor: pointer;
+}
+.topbars>.Profiles{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1130px;
+    padding: 18px 3px 18px 10px;
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(7px);
+    border-radius: 40px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.topbars>.Profiles>img{
+    border-radius: 40px;
+}
+.LOGOUT{
+    padding: 8px 5px 8px 15px;
+    margin: 0px 170px 0px 1120px;
+    position: relative;
+    bottom: 70px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+    border-radius: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.LOGOUT:hover{
+    padding: 8px 5px 8px 15px;
+    margin: 0px 170px 0px 1120px;
+    position: relative;
+    bottom: 70px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(7px);
+    border-radius: 40px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.Pics{
+    margin: 40px 800px 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.Pics>img{
+    margin-left: 10px;
+    margin-right: 250px;
+}
+.Pics>.data>.N{
+    padding: 20px 400px 20px 10px;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Pics>.data>.nametag{
+    padding: 10px 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.Pics>.data>.E{
+    padding: 10px 400px 20px 10px;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Pics>.data>.emailtag{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.Pics>.data>.T{
+    padding: 20px 400px 20px 10px;
+    border-bottom: 3px solid white;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.Pics>.data>.teltag{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}

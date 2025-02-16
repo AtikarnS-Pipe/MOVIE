@@ -1,0 +1,244 @@
+@import url('https://fonts.cdnfonts.com/css/star-wars');
+@import url('https://fonts.cdnfonts.com/css/unbounded');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@font-face {
+    font-family: 'starfont';
+    src: url("../fonts/StarJediRounded-jW3R.ttf");
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.Main{
+    background: linear-gradient(90deg,rgb(50, 1, 58),black,rgb(92, 2, 2));
+    overflow: hidden;
+}
+.topbar{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(237, 237, 237);
+    position: relative;
+    width: 500px;
+    height: 85px;
+}
+.topbar>h3{
+    margin-left: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    bottom: 540px;
+}
+.topbar>.H{
+    border-bottom: 2px solid rgb(255, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    right: 300px;
+    color: white;
+}
+.topbar>.M{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+}
+.topbar>.M:hover{
+    position: absolute;
+    right: 200px;
+    cursor: pointer;
+    color: white;
+}
+.topbar>.T{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+}
+.topbar>.T:hover{
+    position: absolute;
+    right: 110px;
+    cursor: pointer;
+    color: white;
+}
+.topbar>form>input{
+    padding: 7px 20px 7px 8px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    color: white; 
+}
+.topbar>form>input::placeholder{
+    color: white;
+    font-weight: 500;
+}
+.noti{
+    margin-right: 520px;
+    border-radius: 40px;
+    padding: 7px 20px;
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    position: relative;
+    bottom: 569px;
+    left: 1170px;
+    cursor: pointer;
+}
+.profile{
+    padding: 7px 3px 7px 10px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(7px);
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 595px;
+    left: 1230px;
+    font-family: "Outfit", serif;
+    font-weight: 100;
+    color: white;
+    cursor: pointer;
+}
+.profile>img{
+    border-radius: 40px;
+}
+.pic>img{
+    width: 100%;
+    height: auto;
+}
+.detail{
+    position: relative;
+    width: 550px;
+    height: 145px;
+}
+.detail>h1{
+    color: white;
+    font-family: 'Star Wars', sans-serif;
+    font-size: 60px;
+    position: absolute;
+}
+.detail>h2{
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 30px;
+    position: absolute;
+    left: 50px;
+    bottom: 380px; 
+}
+.detail>h4{
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 12px;
+    margin-right: 270px;
+    margin-left: 60px;
+    padding: 15px 15px 15px 13px;
+    border-radius: 10px;
+    background-color: rgb(92, 2, 2);
+    position: absolute;
+    left: 40px;
+    bottom: 320px;
+    cursor: pointer;
+}
+.detail>h4.M{
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 12px;
+    margin-right: 180px;
+    margin-left: 60px;
+    padding: 15px 15px 15px 13px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    left: 170px;
+    bottom: 320px;
+    cursor: pointer;
+}
+.detail>h4:hover{
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 12px;
+    margin-right: 270px;
+    margin-left: 60px;
+    padding: 15px 15px 15px 13px;
+    border-radius: 10px;
+    background-color: rgb(216, 6, 6);
+    position: absolute;
+    left: 40px;
+    bottom: 320px;
+    cursor: pointer;
+}
+.detail>h4.M:hover{
+    color: white;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 12px;
+    margin-right: 180px;
+    margin-left: 60px;
+    padding: 15px 15px 15px 13px;
+    border-radius: 10px;
+    background-color: rgb(110, 110, 110);
+    position: absolute;
+    left: 170px;
+    bottom: 320px;
+    cursor: pointer;
+}
+.detail>.S{
+    position: absolute;
+    left: 120px;
+    bottom: 480px;
+}
+.detail>.W{
+    position: absolute;
+    left: 120px;
+    bottom: 420px;  
+}
+.List{
+    margin-left: 20px;
+    margin-top: 30px;
+    position: relative;
+    width: 400px;
+    height: 20px;
+}
+.List>h2{
+    font-family: "Ubuntu", serif;
+    color: rgb(226, 226, 226);
+    position: absolute;
+
+    left: 40px;
+    bottom: 135px;
+    cursor: pointer;
+}
+.List>h2:hover{
+    font-family: "Ubuntu", serif;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 40px;
+    bottom: 135px;
+    cursor: pointer;
+}
+.grid-container{
+    position: relative;
+    margin-left: 55px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+}
+.grid-container>div:hover{
+    position: relative;
+    margin-left: 55px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 2s;
+}
+.grid-container>div>img{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
